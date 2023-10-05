@@ -11,7 +11,6 @@ struct Node
 	Node* nextNode = NULL;
 
 	Node(int number, string name) { this->number = number, this->name = name; };
-	Node setData(int number, string name) { this->number = number, this->name; };
 };
 
 Node* linkedList(Node* head)
